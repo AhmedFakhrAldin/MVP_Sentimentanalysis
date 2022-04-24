@@ -5,4 +5,5 @@ opencv-python-headless
 pandas
 streamlit==1.8.1
 wordcloud==1.8.1
-
+datetime
+plotly
