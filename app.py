@@ -160,8 +160,8 @@ def cloud(image, text, max_word, max_font, random):
     st.pyplot(fig)
 
 st.write("#### Text Summarization with a WordCloud")
-max_word = 2500
-max_font = 50
+max_word = 1000
+max_font = 75
 random = st.sidebar.slider("Random State", 30, 100, 42 )
 image = 'image.png'
 text = data.Tweet.str.cat(sep=' ')
