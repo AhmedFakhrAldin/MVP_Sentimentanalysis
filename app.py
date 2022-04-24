@@ -2,8 +2,8 @@ import cv2
 import streamlit as st
 import pandas as pd
 from matplotlib import pyplot as plt
-from sqlalchemy import create_engine
-from config import DBConfig
+#from sqlalchemy import create_engine
+#from config import DBConfig
 import datetime
 import tweepy as tw
 import numpy as np
