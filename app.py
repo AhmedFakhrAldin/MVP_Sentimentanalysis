@@ -136,7 +136,7 @@ def cloud(image, text, max_word, max_font, random):
     stopwords.update(['us', 'one', 'will', 'said', 'now', 'well', 'man', 'may',
                       'little', 'say', 'must', 'way', 'long', 'yet', 'mean',
                       'put', 'seem', 'asked', 'made', 'half', 'much',
-                      'certainly', 'might', 'came','https','co','Russia','Russian','Ukraine','t'])
+                      'certainly', 'might', 'came','https','co','Russia','Russian','Ukraine','t','democracy','Sudan'])
 
     wc = WordCloud(background_color="white", colormap="hot", max_words=max_word, mask=image,
                    stopwords=stopwords, max_font_size=max_font, random_state=random)
