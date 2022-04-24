@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 #from sqlalchemy import create_engine
 #from config import DBConfig
 import datetime
-import tweepy as tw
+#import tweepy as tw
 import numpy as np
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import plotly.express as px
